@@ -1,0 +1,17 @@
+{
+  "cls_ba_mean": 0.8356,
+  "cls_ba_std": 0.0,
+  "loc_ba_mean": 0.7638,
+  "loc_ba_std": 0.0,
+  "alarm_mae_mean": 12.29,
+  "alarm_mae_std": 0.0,
+  "spike_rate_mean": 0.3683,
+  "spike_rate_std": 0.0,
+  "params_mean": 139009.0,
+  "params_std": 0.0,
+  "n_seeds": 1,
+  "selected_seed": 3,
+  "selection_rule": "best cls_ba + loc_ba sum",
+  "alarm_weight": 0.1,
+  "config": "FASDNET_CONFIG (src/fasdnet/models/fasdnet.py)"
+}

@@ -1,0 +1,8 @@
+model,role,cls_loc_available,alarm_mae,alarm_mae_std,params,source,interpretation
+DPMixer-only,slow diagnostic baseline,yes,,,136361,computed_from_FASDNET_CONFIG_no_snn,classification/localization backbone without an explicit alarm head
+DPMixer + dense ANN alarm head,dense alarm control,yes,22.3,,145723,user_latest_control_note,dense causal alarm head improves over mean priors but remains weaker than the spiking alarm pathway
+FASD-Net (DPMixer + SNN alarm head),main model,yes,12.29,,139009,results/fasdnet_controls/fasdnet_summary.json,selected submitted run of FASDNET_CONFIG with alarm_weight 0.1
+SNN alarm w/o temporal order (shuffle),temporal-order control,yes,369,,139009,user_latest_control_note,shuffling token order collapses alarm timing
+SNN alarm w/o temporal order (reverse),temporal-order control,yes,723,,139009,user_latest_control_note,reversing token order collapses alarm timing
+global-mean prior,alarm prior,no,43.85,,0,data/PSML/processed_dataset/classification.pkl,global training alarm-time mean evaluated on the official test split
+per-class mean prior,alarm prior,no,44.96,,0,data/PSML/processed_dataset/classification.pkl,class-conditional training alarm-time means evaluated on the official test split

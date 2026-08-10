@@ -1,0 +1,9 @@
+condition,analysis_group,alarm_mae,params,availability
+DPMixer-only,head_control,,136361,no_alarm_output
+SNN alarm head,alarm_head,12.29,139009,yes
+Dense causal alarm head,alarm_head,22.30,145723,yes
+Global-mean prior,prior,43.85,0,no
+Per-class mean prior,prior,44.96,0,no
+Ordered tokens,temporal_order,12.29,139009,yes
+Shuffled tokens,temporal_order,369,139009,yes
+Reversed tokens,temporal_order,723,139009,yes

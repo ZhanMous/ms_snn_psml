@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1660"
+   height="1200"
+   viewBox="0 0 1660 1200"
+   version="1.1"
+   id="svg179"
+   sodipodi:docname="fig1_fasdnet_editable.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview179"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.5158333"
+     inkscape:cx="829.90654"
+     inkscape:cy="600"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="3829"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg179" />
+  <defs
+     id="defs4">
+    <rect
+       x="1206.597"
+       y="1137.9879"
+       width="130.62122"
+       height="17.811985"
+       id="rect211" />
+    <marker
+       id="arrow-blue"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="9"
+       markerHeight="9"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#0b47c5"
+         id="path1" />
+    </marker>
+    <marker
+       id="arrow-purple"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="9"
+       markerHeight="9"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#5c1aa6"
+         id="path2" />
+    </marker>
+    <marker
+       id="arrow-orange"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="9"
+       markerHeight="9"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#ff5a1f"
+         id="path3" />
+    </marker>
+    <marker
+       id="arrow-gray"
+       viewBox="0 0 10 10"
+       refX="9"
+       refY="5"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto-start-reverse">
+      <path
+         d="M 0 0 L 10 5 L 0 10 z"
+         fill="#555"
+         id="path4" />
+    </marker>
+    <style
+       id="style4">
+      .title { font: 700 28px Arial, Helvetica, sans-serif; fill: #111; }
+      .subtitle { font: 700 18px Arial, Helvetica, sans-serif; }
+      .small { font: 15px Arial, Helvetica, sans-serif; fill: #111; }
+      .tiny { font: 13px Arial, Helvetica, sans-serif; fill: #111; }
+      .math { font: italic 24px Georgia, 'Times New Roman', serif; fill: #111; }
+      .blue { fill: #0b47c5; color: #0b47c5; }
+      .purple { fill: #5c1aa6; color: #5c1aa6; }
+      .orange { fill: #ff5a1f; color: #ff5a1f; }
+      .green { fill: #176221; color: #176221; }
+      .panel-blue { fill: #f7fbff; stroke: #0b47c5; stroke-width: 2.3; }
+      .panel-purple { fill: #fbf7ff; stroke: #5c1aa6; stroke-width: 2.3; }
+      .panel-green { fill: #fbfff8; stroke: #176221; stroke-width: 2.3; }
+      .panel-orange { fill: #fff9f5; stroke: #ff5a1f; stroke-width: 2.0; }
+      .box-blue { fill: #f7fbff; stroke: #0b47c5; stroke-width: 2.0; }
+      .box-purple { fill: #fbf7ff; stroke: #5c1aa6; stroke-width: 2.0; }
+      .box-green { fill: #fbfff8; stroke: #176221; stroke-width: 2.0; }
+      .box-orange { fill: #fff9f5; stroke: #ff5a1f; stroke-width: 2.0; }
+      .axis { stroke: #222; stroke-width: 1.5; fill: none; }
+      .thin { stroke-width: 1.2; fill: none; }
+      .dash { stroke-dasharray: 5 8; }
+      .soft-shadow { }
+    </style>
+  </defs>
+  <rect
+     x="0"
+     y="0"
+     width="1660"
+     height="1200"
+     fill="white"
+     id="rect4" />
+  <!-- Column titles -->
+  <text
+     x="45"
+     y="52"
+     class="title"
+     id="text4">1) Shared Disturbance Tokenization</text>
+  <text
+     x="700"
+     y="52"
+     class="title"
+     id="text5">2) Fast-Slow Core Idea</text>
+  <text
+     x="1294"
+     y="52"
+     class="title"
+     id="text6"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:28px;line-height:normal;font-family:Arial, Helvetica, sans-serif">3) Outputs and Evaluation</text>
+  <line
+     x1="505"
+     y1="25"
+     x2="505"
+     y2="1085"
+     stroke="#b6bcc7"
+     stroke-width="1.5"
+     stroke-dasharray="4 8"
+     id="line6" />
+  <line
+     x1="1280"
+     y1="25"
+     x2="1280"
+     y2="1085"
+     stroke="#b6bcc7"
+     stroke-width="1.5"
+     stroke-dasharray="4 8"
+     id="line7" />
+  <!-- Left tokenization panel -->
+  <rect
+     x="42"
+     y="142"
+     width="355"
+     height="906"
+     rx="26"
+     class="panel-green soft-shadow"
+     id="rect7"
+     style="fill:#ffffff;fill-opacity:1" />
+  <text
+     x="114"
+     y="178"
+     class="subtitle green"
+     id="text7"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">Disturbance Tokenizer</text>
+  <text
+     x="90"
+     y="243"
+     class="tiny"
+     id="text10"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-size:18.6667px"
+       id="tspan179">Multichannel PMU tracets</tspan></text>
+  <text
+     x="306"
+     y="245"
+     class="math"
+     font-size="18"
+     id="text11"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:normal;font-family:Georgia, 'Times New Roman', serif">(X)</text>
+  <text
+     x="62"
+     y="288"
+     class="tiny"
+     id="text12">ch 1</text>
+  <text
+     x="62"
+     y="324"
+     class="tiny"
+     id="text13">ch 2</text>
+  <text
+     x="66"
+     y="357"
+     class="tiny"
+     id="text14">...</text>
+  <text
+     x="62"
+     y="392"
+     class="tiny"
+     id="text15">ch C</text>
+  <polyline
+     points="102,279 118,273 134,280 150,271 166,279 183,276 198,282 215,272 232,281 248,275 265,280 282,273 300,278 318,270 337,278"
+     stroke="#3578d4"
+     class="thin"
+     id="polyline15" />
+  <polyline
+     points="102,316 118,309 134,318 150,310 166,319 183,315 198,321 215,310 232,318 248,312 265,319 282,311 300,316 318,309 337,316"
+     stroke="#ff8a2a"
+     class="thin"
+     id="polyline16" />
+  <polyline
+     points="102,353 118,346 134,354 150,348 166,357 183,350 198,356 215,347 232,354 248,349 265,355 282,347 300,353 318,346 337,352"
+     stroke="#43a047"
+     class="thin"
+     id="polyline17" />
+  <polyline
+     points="102,390 118,383 134,392 150,385 166,394 183,389 198,395 215,386 232,393 248,388 265,394 282,387 300,392 318,384 337,391"
+     stroke="#8e44cc"
+     class="thin"
+     id="polyline18" />
+  <line
+     x1="102"
+     y1="414"
+     x2="368"
+     y2="414"
+     class="axis"
+     marker-end="url(#arrow-gray)"
+     id="line18" />
+  <text
+     x="104"
+     y="436"
+     class="tiny"
+     id="text18">1</text>
+  <text
+     x="225"
+     y="436"
+     class="tiny"
+     id="text19">t</text>
+  <text
+     x="354"
+     y="436"
+     class="tiny"
+     id="text20">T</text>
+  <line
+     x1="80"
+     y1="438"
+     x2="368"
+     y2="438"
+     stroke="#777"
+     stroke-width="1.1"
+     id="line20" />
+  <!-- windowed traces -->
+  <text
+     x="72"
+     y="502"
+     class="tiny"
+     id="text21">n</text>
+  <text
+     x="72"
+     y="546"
+     class="tiny"
+     id="text22">2</text>
+  <text
+     x="76"
+     y="588"
+     class="tiny"
+     id="text23">...</text>
+  <text
+     x="72"
+     y="634"
+     class="tiny"
+     id="text24">C</text>
+  <g
+     stroke="#83b573"
+     stroke-width="1.2"
+     stroke-dasharray="4 4"
+     fill="none"
+     id="g27">
+    <rect
+       x="83"
+       y="465"
+       width="54"
+       height="155"
+       rx="4"
+       id="rect24" />
+    <rect
+       x="128"
+       y="465"
+       width="54"
+       height="155"
+       rx="4"
+       id="rect25" />
+    <rect
+       x="173"
+       y="465"
+       width="54"
+       height="155"
+       rx="4"
+       id="rect26" />
+    <rect
+       x="218"
+       y="465"
+       width="54"
+       height="155"
+       rx="4"
+       id="rect27" />
+  </g>
+  <polyline
+     points="85,482 103,475 121,486 139,477 157,489 175,480 193,490 211,478 229,486 247,478 265,487 283,476 304,486 325,478 348,486"
+     stroke="#3578d4"
+     class="thin"
+     id="polyline27" />
+  <polyline
+     points="85,527 103,519 121,530 139,522 157,533 175,524 193,534 211,523 229,531 247,523 265,533 283,522 304,531 325,521 348,531"
+     stroke="#ff8a2a"
+     class="thin"
+     id="polyline28" />
+  <polyline
+     points="85,575 103,566 121,578 139,569 157,581 175,572 193,582 211,571 229,579 247,570 265,580 283,569 304,579 325,568 348,578"
+     stroke="#43a047"
+     class="thin"
+     id="polyline29" />
+  <polyline
+     points="85,622 103,614 121,624 139,616 157,627 175,618 193,628 211,617 229,625 247,617 265,626 283,616 304,625 325,615 348,625"
+     stroke="#8e44cc"
+     class="thin"
+     id="polyline30" />
+  <text
+     x="126"
+     y="660"
+     class="tiny"
+     id="text30"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-size:18.6667px"
+       id="tspan181">temporal segments</tspan></text>
+  <path
+     d="m 203.50742,704.40098 v 4.81177"
+     stroke="#666666"
+     stroke-width="4.53989"
+     marker-end="url(#arrow-gray)"
+     id="path31" />
+  <text
+     x="88"
+     y="746"
+     class="math"
+     id="text34">Z<tspan
+   baseline-shift="sub"
+   font-size="15"
+   id="tspan31">0</tspan> = g<tspan
+   baseline-shift="sub"
+   font-size="15"
+   id="tspan32">φ</tspan>(X),  Z<tspan
+   baseline-shift="sub"
+   font-size="15"
+   id="tspan33">0</tspan> ∈ ℝ<tspan
+   baseline-shift="super"
+   font-size="15"
+   id="tspan34">M×D</tspan></text>
+  <g
+     id="g44">
+    <rect
+       x="60"
+       y="783"
+       width="42"
+       height="58"
+       rx="5"
+       class="box-green"
+       id="rect34" />
+    <rect
+       x="126"
+       y="783"
+       width="42"
+       height="58"
+       rx="5"
+       class="box-green"
+       id="rect35" />
+    <rect
+       x="192"
+       y="783"
+       width="42"
+       height="58"
+       rx="5"
+       class="box-green"
+       id="rect36" />
+    <rect
+       x="326"
+       y="783"
+       width="48"
+       height="58"
+       rx="5"
+       class="box-green"
+       id="rect37" />
+    <text
+       x="72"
+       y="817"
+       class="math"
+       font-size="19"
+       id="text37">z<tspan
+   baseline-shift="sub"
+   font-size="12"
+   id="tspan37">1</tspan></text>
+    <text
+       x="138"
+       y="817"
+       class="math"
+       font-size="19"
+       id="text38">z<tspan
+   baseline-shift="sub"
+   font-size="12"
+   id="tspan38">2</tspan></text>
+    <text
+       x="204"
+       y="817"
+       class="math"
+       font-size="19"
+       id="text39">z<tspan
+   baseline-shift="sub"
+   font-size="12"
+   id="tspan39">3</tspan></text>
+    <text
+       x="338"
+       y="817"
+       class="math"
+       font-size="19"
+       id="text40">z<tspan
+   baseline-shift="sub"
+   font-size="12"
+   id="tspan40">M</tspan></text>
+    <text
+       x="265"
+       y="815"
+       class="title"
+       font-size="22"
+       id="text41">...</text>
+    <line
+       x1="69"
+       y1="862"
+       x2="369"
+       y2="862"
+       class="axis"
+       marker-end="url(#arrow-gray)"
+       id="line41" />
+    <text
+       x="69"
+       y="891"
+       class="tiny"
+       id="text42">1</text>
+    <text
+       x="161"
+       y="893"
+       class="tiny"
+       id="text43"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+         style="font-size:18.6667px"
+         id="tspan186">Token index</tspan></text>
+    <text
+       x="346"
+       y="891"
+       class="tiny"
+       id="text44">M</text>
+  </g>
+  <rect
+     x="72"
+     y="922"
+     width="292"
+     height="92"
+     rx="14"
+     class="box-green"
+     id="rect44" />
+  <text
+     x="121"
+     y="959"
+     class="subtitle"
+     fill="#111"
+     id="text45">shared token interface</text>
+  <text
+     x="168"
+     y="993"
+     class="math"
+     font-size="20"
+     id="text46">(M × D)</text>
+  <!-- Connectors from tokenizer to core -->
+  <path
+     d="M 397 380 H 455 Q 455 380 455 340 V 273 H 528"
+     stroke="#0b47c5"
+     stroke-width="5"
+     fill="none"
+     marker-end="url(#arrow-blue)"
+     id="path46" />
+  <text
+     x="443.5708"
+     y="410"
+     class="subtitle blue"
+     font-size="16"
+     id="text47"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif;text-align:center;text-anchor:middle"><tspan
+       sodipodi:role="line"
+       id="tspan192"
+       x="405"
+       y="410">detached</tspan><tspan
+       sodipodi:role="line"
+       id="tspan193"
+       x="405"
+       y="432.5">copy</tspan></text>
+  <path
+     d="M 397 815 H 455 Q 455 815 455 845 V 845 H 528"
+     stroke="#5c1aa6"
+     stroke-width="5"
+     fill="none"
+     marker-end="url(#arrow-purple)"
+     id="path48" />
+  <text
+     x="422"
+     y="756"
+     class="subtitle purple"
+     font-size="16"
+     id="text49"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">shared</text>
+  <text
+     x="402"
+     y="781"
+     class="subtitle purple"
+     font-size="16"
+     id="text50"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">disturbance</text>
+  <text
+     x="422"
+     y="804"
+     class="subtitle purple"
+     font-size="16"
+     id="text51"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">tokens</text>
+  <!-- Core fast panel -->
+  <rect
+     x="530"
+     y="80"
+     width="720"
+     height="575"
+     rx="28"
+     class="panel-blue soft-shadow"
+     id="rect51" />
+  <text
+     x="705"
+     y="120"
+     class="title blue"
+     id="text52">A. Fast Spiking Alarm Pathway</text>
+  <text
+     x="655"
+     y="151"
+     class="subtitle blue"
+     font-size="18"
+     font-style="italic"
+     id="text53">prefix-safe token stream (causal temporal integration)</text>
+  <text
+     x="575"
+     y="198"
+     class="tiny"
+     id="text54">Token order (causal)</text>
+  <g
+     id="g61">
+    <rect
+       x="545"
+       y="245"
+       width="30"
+       height="62"
+       class="box-blue"
+       id="rect54" />
+    <rect
+       x="585"
+       y="245"
+       width="30"
+       height="62"
+       class="box-blue"
+       id="rect55" />
+    <rect
+       x="625"
+       y="245"
+       width="30"
+       height="62"
+       class="box-blue"
+       id="rect56" />
+    <rect
+       x="704"
+       y="245"
+       width="30"
+       height="62"
+       class="box-blue"
+       id="rect57" />
+    <text
+       x="550"
+       y="230"
+       class="math"
+       font-size="17"
+       id="text57">z<tspan
+   baseline-shift="sub"
+   font-size="11"
+   id="tspan57">1</tspan></text>
+    <text
+       x="592"
+       y="230"
+       class="math"
+       font-size="17"
+       id="text58">z<tspan
+   baseline-shift="sub"
+   font-size="11"
+   id="tspan58">2</tspan></text>
+    <text
+       x="632"
+       y="230"
+       class="math"
+       font-size="17"
+       id="text59">z<tspan
+   baseline-shift="sub"
+   font-size="11"
+   id="tspan59">3</tspan></text>
+    <text
+       x="707"
+       y="230"
+       class="math"
+       font-size="17"
+       id="text60">z<tspan
+   baseline-shift="sub"
+   font-size="11"
+   id="tspan60">M</tspan></text>
+    <text
+       x="670"
+       y="283"
+       class="title"
+       font-size="22"
+       id="text61">...</text>
+    <path
+       d="M 545 330 H 730"
+       stroke="#111"
+       stroke-width="1.5"
+       marker-end="url(#arrow-gray)"
+       id="path61" />
+  </g>
+  <g
+     stroke="#111"
+     stroke-width="2"
+     fill="white"
+     id="g65">
+    <circle
+       cx="805"
+       cy="276"
+       r="28"
+       id="circle61" />
+    <circle
+       cx="915"
+       cy="276"
+       r="28"
+       id="circle62" />
+    <circle
+       cx="1030"
+       cy="276"
+       r="28"
+       id="circle63" />
+    <path
+       d="m 794,287 c 12,0 7,-25 22,-25"
+       fill="none"
+       id="path63" />
+    <path
+       d="m 904,287 c 12,0 7,-25 22,-25"
+       fill="none"
+       id="path64" />
+    <path
+       d="m 1019,287 c 12,0 7,-25 22,-25"
+       fill="none"
+       id="path65" />
+  </g>
+  <g
+     stroke="#111111"
+     stroke-width="1.8"
+     fill="none"
+     marker-end="url(#arrow-gray)"
+     id="g74"
+     transform="translate(-3.2985157)">
+    <path
+       d="m 735,276 h 42"
+       id="path72" />
+    <path
+       d="m 833,276 h 53"
+       id="path73" />
+    <path
+       d="m 972.7702,276 h 34.7756"
+       id="path74"
+       style="stroke-width:1.41846" />
+  </g>
+  <text
+     x="947"
+     y="278"
+     class="title"
+     font-size="24"
+     id="text74"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:28px;line-height:normal;font-family:Arial, Helvetica, sans-serif">...</text>
+  <path
+     d="M 1058 276 H 1130 V 337"
+     stroke="#0b47c5"
+     stroke-width="3"
+     fill="none"
+     marker-end="url(#arrow-blue)"
+     id="path75" />
+  <rect
+     x="1060"
+     y="310"
+     width="140"
+     height="68"
+     rx="11"
+     class="box-blue"
+     id="rect75" />
+  <text
+     x="1130"
+     y="340"
+     class="subtitle blue"
+     text-anchor="middle"
+     id="text75"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">SNN</text>
+  <text
+     x="1136"
+     y="365"
+     class="subtitle blue"
+     text-anchor="middle"
+     font-size="17"
+     id="text76"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">alarm head</text>
+  <path
+     d="M 1130 378 V 405"
+     stroke="#0b47c5"
+     stroke-width="3"
+     marker-end="url(#arrow-blue)"
+     id="path76" />
+  <text
+     x="1070"
+     y="424"
+     class="tiny"
+     id="text77"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-size:18.6667px"
+       id="tspan183">alarm logits</tspan></text>
+  <text
+     x="1171"
+     y="424"
+     class="math"
+     font-size="18"
+     id="text78">a<tspan
+   baseline-shift="sub"
+   font-size="12"
+   id="tspan77">m</tspan></text>
+  <text
+     x="835"
+     y="342"
+     class="tiny"
+     id="text79"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-size:21.3333px"
+       id="tspan182">Spiking neurons</tspan></text>
+  <!-- Alarm logit bars -->
+  <line
+     x1="610"
+     y1="517"
+     x2="1125"
+     y2="517"
+     class="axis"
+     id="line79" />
+  <line
+     x1="610"
+     y1="413"
+     x2="610"
+     y2="517"
+     class="axis"
+     marker-end="url(#arrow-gray)"
+     id="line80" />
+  <line
+     x1="610"
+     y1="463"
+     x2="1125"
+     y2="463"
+     stroke="#111"
+     stroke-width="1.5"
+     stroke-dasharray="6 6"
+     id="line81" />
+  <text
+     x="570"
+     y="422"
+     class="math"
+     font-size="20"
+     id="text81">a<tspan
+   baseline-shift="sub"
+   font-size="13"
+   id="tspan81">m</tspan></text>
+  <text
+     x="1135"
+     y="469"
+     class="tiny"
+     id="text82"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-size:18.6667px"
+       id="tspan184">threshold</tspan></text>
+  <text
+     x="608"
+     y="545"
+     class="tiny"
+     id="text83">1</text>
+  <text
+     x="785"
+     y="545"
+     class="math"
+     font-size="18"
+     id="text84">m</text>
+  <text
+     x="1085"
+     y="545"
+     class="math"
+     font-size="18"
+     id="text85">M</text>
+  <text
+     x="741"
+     y="567"
+     class="tiny"
+     id="text86"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-size:18.6667px"
+       id="tspan185">Token index</tspan></text>
+  <g
+     fill="#b7d3ff"
+     stroke="#0b47c5"
+     stroke-width="1"
+     id="g113">
+    <rect
+       x="620"
+       y="494"
+       width="10"
+       height="23"
+       id="rect86" />
+    <rect
+       x="637"
+       y="486"
+       width="10"
+       height="31"
+       id="rect87" />
+    <rect
+       x="654"
+       y="495"
+       width="10"
+       height="22"
+       id="rect88" />
+    <rect
+       x="671"
+       y="486"
+       width="10"
+       height="31"
+       id="rect89" />
+    <rect
+       x="688"
+       y="503"
+       width="10"
+       height="14"
+       id="rect90" />
+    <rect
+       x="705"
+       y="498"
+       width="10"
+       height="19"
+       id="rect91" />
+    <rect
+       x="722"
+       y="499"
+       width="10"
+       height="18"
+       id="rect92" />
+    <rect
+       x="739"
+       y="505"
+       width="10"
+       height="12"
+       id="rect93" />
+    <rect
+       x="756"
+       y="510"
+       width="10"
+       height="7"
+       id="rect94" />
+    <rect
+       x="773"
+       y="496"
+       width="10"
+       height="21"
+       id="rect95" />
+    <rect
+       x="790"
+       y="508"
+       width="10"
+       height="9"
+       id="rect96" />
+    <rect
+       x="807"
+       y="498"
+       width="10"
+       height="19"
+       id="rect97" />
+    <rect
+       x="824"
+       y="505"
+       width="10"
+       height="12"
+       id="rect98" />
+    <rect
+       x="841"
+       y="502"
+       width="10"
+       height="15"
+       id="rect99" />
+    <rect
+       x="858"
+       y="493"
+       width="10"
+       height="24"
+       id="rect100" />
+    <rect
+       x="875"
+       y="485"
+       width="10"
+       height="32"
+       id="rect101" />
+    <rect
+       x="908"
+       y="486"
+       width="10"
+       height="31"
+       id="rect102" />
+    <rect
+       x="925"
+       y="500"
+       width="10"
+       height="17"
+       id="rect103" />
+    <rect
+       x="942"
+       y="488"
+       width="10"
+       height="29"
+       id="rect104" />
+    <rect
+       x="959"
+       y="497"
+       width="10"
+       height="20"
+       id="rect105" />
+    <rect
+       x="976"
+       y="496"
+       width="10"
+       height="21"
+       id="rect106" />
+    <rect
+       x="993"
+       y="504"
+       width="10"
+       height="13"
+       id="rect107" />
+    <rect
+       x="1010"
+       y="502"
+       width="10"
+       height="15"
+       id="rect108" />
+    <rect
+       x="1027"
+       y="499"
+       width="10"
+       height="18"
+       id="rect109" />
+    <rect
+       x="1044"
+       y="503"
+       width="10"
+       height="14"
+       id="rect110" />
+    <rect
+       x="1061"
+       y="509"
+       width="10"
+       height="8"
+       id="rect111" />
+    <rect
+       x="1078"
+       y="501"
+       width="10"
+       height="16"
+       id="rect112" />
+    <rect
+       x="1095"
+       y="507"
+       width="10"
+       height="10"
+       id="rect113" />
+  </g>
+  <rect
+     x="890"
+     y="438"
+     width="10"
+     height="79"
+     fill="#ff8a8a"
+     stroke="#e31a1c"
+     stroke-width="1.2"
+     id="rect114" />
+  <line
+     x1="895"
+     y1="438"
+     x2="895"
+     y2="590"
+     stroke="#e31a1c"
+     stroke-width="2"
+     stroke-dasharray="8 8"
+     marker-end="url(#arrow-orange)"
+     id="line114" />
+  <text
+     x="832"
+     y="612"
+     class="subtitle orange"
+     font-size="18"
+     id="text114"
+     style="font-style:normal;font-variant:normal;font-weight:700;font-stretch:normal;font-size:18px;line-height:normal;font-family:Arial, Helvetica, sans-serif">alarm time</text>
+  <text
+     x="922.05969"
+     y="618.4455"
+     class="math"
+     font-size="22"
+     fill="#ff5a1f"
+     id="text115"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:normal;font-family:Georgia, 'Times New Roman', serif;fill:#111111;fill-opacity:1;stroke-width:1.68404"
+     transform="scale(1.009819,0.99027647)">t<tspan
+   baseline-shift="sub"
+   font-size="21.8924px"
+   id="tspan114"
+   style="fill:#111111;fill-opacity:1;stroke-width:1.68404">a</tspan></text>
+  <!-- Slow diagnosis panel -->
+  <rect
+     x="530"
+     y="680"
+     width="720"
+     height="386"
+     rx="24"
+     class="panel-purple soft-shadow"
+     id="rect119" />
+  <text
+     x="690"
+     y="716"
+     class="title purple"
+     id="text120">B. Slow Diagnosis via DPMixer</text>
+  <text
+     x="718"
+     y="750"
+     class="subtitle purple"
+     font-size="18"
+     font-style="italic"
+     id="text121">full-window dense processing</text>
+  <g
+     id="g133"
+     transform="translate(4.6179219,7.9164376)">
+    <rect
+       x="552"
+       y="778"
+       width="86"
+       height="115"
+       rx="11"
+       class="box-purple"
+       id="rect121" />
+    <rect
+       x="675"
+       y="778"
+       width="100"
+       height="115"
+       rx="11"
+       class="box-purple"
+       id="rect122" />
+    <rect
+       x="802"
+       y="778"
+       width="90"
+       height="115"
+       rx="11"
+       class="box-purple"
+       id="rect123" />
+    <text
+       x="595"
+       y="811"
+       class="small purple"
+       text-anchor="middle"
+       id="text123"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+         id="tspan196">Dense</tspan></text>
+    <text
+       x="595"
+       y="836"
+       class="small purple"
+       text-anchor="middle"
+       id="text124"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+         id="tspan195">temporal</tspan></text>
+    <text
+       x="595"
+       y="865"
+       class="small purple"
+       text-anchor="middle"
+       id="text125"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+         id="tspan197">mixing</tspan></text>
+    <text
+       x="725"
+       y="806"
+       class="small purple"
+       text-anchor="middle"
+       id="text126"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+         id="tspan198">Temporal</tspan></text>
+    <text
+       x="725"
+       y="831"
+       class="small purple"
+       text-anchor="middle"
+       id="text127"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+         id="tspan199">evidence</tspan></text>
+    <text
+       x="725"
+       y="854"
+       class="small purple"
+       text-anchor="middle"
+       id="text128"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+         id="tspan200">blocks</tspan></text>
+    <text
+       x="725"
+       y="874"
+       class="tiny purple"
+       text-anchor="middle"
+       id="text129"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">(<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+   id="tspan201">stack)</tspan></text>
+    <text
+       x="847"
+       y="824"
+       class="small purple"
+       text-anchor="middle"
+       id="text130"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+         id="tspan202">Global</tspan></text>
+    <text
+       x="847"
+       y="850"
+       class="small purple"
+       text-anchor="middle"
+       id="text131"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+         id="tspan203">pooling</tspan></text>
+    <path
+       d="m 638,835 h 30"
+       stroke="#555555"
+       stroke-width="2"
+       marker-end="url(#arrow-gray)"
+       id="path131" />
+    <path
+       d="m 775,835 h 21"
+       stroke="#555555"
+       stroke-width="2"
+       marker-end="url(#arrow-gray)"
+       id="path132" />
+    <path
+       d="m 892,835 h 38"
+       stroke="#555555"
+       stroke-width="2"
+       marker-end="url(#arrow-gray)"
+       id="path133" />
+  </g>
+  <g
+     fill="#d8c5ff"
+     stroke="#5c1aa6"
+     stroke-width="1.2"
+     id="g137"
+     transform="translate(0,-16)">
+    <rect
+       x="967"
+       y="832"
+       width="18"
+       height="20"
+       id="rect134" />
+    <rect
+       x="967"
+       y="858"
+       width="18"
+       height="20"
+       id="rect135" />
+    <rect
+       x="967"
+       y="884"
+       width="18"
+       height="20"
+       id="rect136" />
+    <rect
+       x="967"
+       y="910"
+       width="18"
+       height="20"
+       id="rect137" />
+  </g>
+  <rect
+     x="1095"
+     y="742"
+     width="84"
+     height="70"
+     rx="9"
+     class="box-purple"
+     id="rect138" />
+  <text
+     x="1137"
+     y="774"
+     class="small purple"
+     text-anchor="middle"
+     id="text138"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan213">Class</tspan></text>
+  <text
+     x="1137"
+     y="801"
+     class="small purple"
+     text-anchor="middle"
+     id="text139"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan214">head</tspan></text>
+  <text
+     x="1192"
+     y="816"
+     class="math"
+     font-size="17"
+     id="text140">y<tspan
+   baseline-shift="sub"
+   font-size="11"
+   id="tspan139">cls</tspan></text>
+  <path
+     d="M 985 845 H 1035 Q 1035 778 1095 778"
+     stroke="#333"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrow-gray)"
+     id="path140" />
+  <rect
+     x="552"
+     y="918"
+     width="315"
+     height="132"
+     rx="12"
+     fill="#fff"
+     stroke="#5c1aa6"
+     stroke-width="1.7"
+     id="rect140" />
+  <text
+     x="580"
+     y="946"
+     class="tiny"
+     id="text141"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan217">Channel-sensitive disturbance information</tspan></text>
+  <g
+     fill="#b494e8"
+     stroke="#5c1aa6"
+     stroke-width="1"
+     id="g152"
+     transform="matrix(1.0006375,0,0,0.67967979,-0.44975064,311.26359)">
+    <rect
+       x="568"
+       y="980"
+       width="13"
+       height="45"
+       id="rect141" />
+    <rect
+       x="586"
+       y="973"
+       width="13"
+       height="52"
+       id="rect142" />
+    <rect
+       x="604"
+       y="987"
+       width="13"
+       height="38"
+       id="rect143" />
+    <rect
+       x="622"
+       y="996"
+       width="13"
+       height="29"
+       id="rect144" />
+    <rect
+       x="650"
+       y="981"
+       width="13"
+       height="44"
+       id="rect145" />
+    <rect
+       x="680"
+       y="1000"
+       width="13"
+       height="25"
+       id="rect146" />
+    <rect
+       x="704"
+       y="986"
+       width="13"
+       height="39"
+       id="rect147" />
+    <rect
+       x="730"
+       y="972"
+       width="13"
+       height="53"
+       id="rect148" />
+    <rect
+       x="756"
+       y="991"
+       width="13"
+       height="34"
+       id="rect149" />
+    <rect
+       x="780"
+       y="1001"
+       width="13"
+       height="24"
+       id="rect150" />
+    <rect
+       x="806"
+       y="976"
+       width="13"
+       height="49"
+       id="rect151" />
+    <rect
+       x="830"
+       y="987"
+       width="13"
+       height="38"
+       id="rect152" />
+  </g>
+  <line
+     x1="564"
+     y1="1008"
+     x2="848"
+     y2="1008"
+     class="axis"
+     id="line152" />
+  <text
+     x="566"
+     y="1026"
+     class="tiny"
+     id="text152"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">1</text>
+  <text
+     x="635"
+     y="1020"
+     class="tiny"
+     id="text153"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">...</text>
+  <text
+     x="705"
+     y="1028"
+     class="math"
+     font-size="16"
+     id="text154"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:normal;font-family:Georgia, 'Times New Roman', serif">t</text>
+  <text
+     x="771"
+     y="1020"
+     class="tiny"
+     id="text155"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">...</text>
+  <text
+     x="831"
+     y="1024"
+     class="tiny"
+     id="text156"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif">C</text>
+  <text
+     x="650"
+     y="1043"
+     class="tiny"
+     id="text157"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-size:17.3333px"
+       id="tspan194">Channel index</tspan></text>
+  <path
+     d="m 869.78396,985.33839 172.88294,-0.45777 q -0.064,-39.02037 52.7614,-39.16023"
+     stroke="#5c1aa6"
+     stroke-width="2.62367"
+     fill="none"
+     stroke-dasharray="9, 8"
+     marker-end="url(#arrow-purple)"
+     id="path157" />
+  <rect
+     x="1095"
+     y="890"
+     width="84"
+     height="70"
+     rx="9"
+     class="box-orange"
+     id="rect157" />
+  <text
+     x="1137"
+     y="922"
+     class="small orange"
+     text-anchor="middle"
+     id="text158"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan215">Location</tspan></text>
+  <text
+     x="1137"
+     y="949"
+     class="small orange"
+     text-anchor="middle"
+     id="text159"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan216">head</tspan></text>
+  <text
+     x="1192"
+     y="965"
+     class="math"
+     font-size="17"
+     id="text160">y<tspan
+   baseline-shift="sub"
+   font-size="11"
+   id="tspan159">loc</tspan></text>
+  <path
+     d="M 985 897 H 1035 Q 1035 925 1095 925"
+     stroke="#333"
+     stroke-width="2"
+     fill="none"
+     marker-end="url(#arrow-gray)"
+     id="path160" />
+  <!-- Outputs -->
+  <path
+     d="M 1250 250 H 1320"
+     stroke="#0b47c5"
+     stroke-width="5"
+     marker-end="url(#arrow-blue)"
+     id="path162" />
+  <rect
+     x="1329"
+     y="172"
+     width="220"
+     height="150"
+     rx="12"
+     class="box-blue"
+     id="rect162" />
+  <text
+     x="1435"
+     y="230"
+     class="subtitle blue"
+     text-anchor="middle"
+     id="text163">Alarm Time</text>
+  <text
+     x="1435"
+     y="282"
+     class="math"
+     font-size="34"
+     id="text164">t<tspan
+   baseline-shift="sub"
+   font-size="18"
+   id="tspan163">a</tspan></text>
+  <rect
+     x="1329"
+     y="343"
+     width="220"
+     height="72"
+     rx="10"
+     class="box-blue"
+     id="rect164" />
+  <text
+     x="1439"
+     y="388"
+     class="small"
+     text-anchor="middle"
+     id="text165"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-size:21.3333px"
+       id="tspan187">Alarm MAE</tspan></text>
+  <path
+     d="M 1250 680 H 1320"
+     stroke="#5c1aa6"
+     stroke-width="5"
+     marker-end="url(#arrow-purple)"
+     id="path165" />
+  <rect
+     x="1325"
+     y="612"
+     width="220"
+     height="130"
+     rx="12"
+     class="box-purple"
+     id="rect165" />
+  <text
+     x="1435"
+     y="668"
+     class="subtitle purple"
+     text-anchor="middle"
+     id="text166">Class Prediction</text>
+  <text
+     x="1419"
+     y="708"
+     class="math"
+     font-size="30"
+     id="text167"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:normal;font-family:Georgia, 'Times New Roman', serif">y<tspan
+   baseline-shift="sub"
+   font-size="17px"
+   id="tspan166">cls</tspan></text>
+  <rect
+     x="1325"
+     y="760"
+     width="220"
+     height="78"
+     rx="10"
+     class="box-purple"
+     id="rect167" />
+  <text
+     x="1435"
+     y="792"
+     class="small"
+     text-anchor="middle"
+     id="text168"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       id="tspan188"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'">Classification</tspan></text>
+  <text
+     x="1435"
+     y="818"
+     class="small"
+     text-anchor="middle"
+     id="text169"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan189">balanced accuracy</tspan></text>
+  <path
+     d="M 1250 895 H 1320"
+     stroke="#ff5a1f"
+     stroke-width="5"
+     marker-end="url(#arrow-orange)"
+     id="path169" />
+  <rect
+     x="1325"
+     y="862"
+     width="220"
+     height="130"
+     rx="12"
+     class="box-orange"
+     id="rect169" />
+  <text
+     x="1435"
+     y="917"
+     class="subtitle orange"
+     text-anchor="middle"
+     id="text170">Location Prediction</text>
+  <text
+     x="1419"
+     y="957"
+     class="math"
+     font-size="30"
+     id="text171"
+     style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:normal;font-family:Georgia, 'Times New Roman', serif">y<tspan
+   baseline-shift="sub"
+   font-size="17px"
+   id="tspan170">loc</tspan></text>
+  <rect
+     x="1325"
+     y="1010"
+     width="220"
+     height="78"
+     rx="10"
+     class="box-orange"
+     id="rect171" />
+  <text
+     x="1435"
+     y="1042"
+     class="small"
+     text-anchor="middle"
+     id="text172"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan190">Localization</tspan></text>
+  <text
+     x="1435"
+     y="1068"
+     class="small"
+     text-anchor="middle"
+     id="text173"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan191">balanced accuracy</tspan></text>
+  <!-- Legend -->
+  <rect
+     x="130"
+     y="1100"
+     width="1300"
+     height="78"
+     rx="8"
+     fill="#ffffff"
+     stroke="#888888"
+     stroke-width="1.5"
+     id="rect173" />
+  <text
+     x="1205.8516"
+     y="1153.4531"
+     class="tiny"
+     id="text177-9"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif;fill:#111111"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan209-4">representation</tspan></text>
+  <rect
+     x="165"
+     y="1121"
+     width="43"
+     height="35"
+     rx="5"
+     class="box-blue"
+     id="rect174" />
+  <text
+     x="228"
+     y="1143"
+     class="tiny"
+     id="text174"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan204">fast alarm pathway</tspan></text>
+  <rect
+     x="480"
+     y="1121"
+     width="43"
+     height="35"
+     rx="5"
+     class="box-purple"
+     id="rect175" />
+  <text
+     x="543"
+     y="1135"
+     class="tiny"
+     id="text175"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       id="tspan205"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'">slow diagnosis /</tspan></text>
+  <text
+     x="543"
+     y="1155"
+     class="tiny"
+     id="text176"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan207">classification pathway</tspan></text>
+  <rect
+     x="832"
+     y="1121"
+     width="43"
+     height="35"
+     rx="5"
+     class="box-orange"
+     id="rect176" />
+  <text
+     x="891"
+     y="1143"
+     class="tiny"
+     id="text177"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan209">localization pathway</tspan></text>
+  <rect
+     x="1148"
+     y="1121"
+     width="43"
+     height="35"
+     rx="5"
+     class="box-green"
+     id="rect177" />
+  <text
+     x="1204"
+     y="1135"
+     class="tiny"
+     id="text178"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold'"
+       id="tspan210">shared tokenizer /</tspan></text>
+  <text
+     x="1312"
+     y="1141"
+     class="tiny"
+     id="text179"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13px;line-height:normal;font-family:Arial, Helvetica, sans-serif;white-space:pre;inline-size:101.821"
+     transform="translate(-88,12)"
+     xml:space="preserve" />
+  <text
+     xml:space="preserve"
+     id="text211"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;line-height:1.3;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif Bold';writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect211);fill:#111111;fill-opacity:1;stroke:#ffffff" />
+</svg>

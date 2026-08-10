@@ -1,0 +1,20 @@
+{
+  "name": "fasdnet_controls",
+  "description": "FASD-Net / DPMixer control evidence for the fast-alarm and slow-diagnosis manuscript.",
+  "main_model": {
+    "paper_name": "FASD-Net",
+    "backbone_name": "DPMixer",
+    "code_config": "FASDNET_CONFIG",
+    "config_file": "src/fasdnet/models/fasdnet.py",
+    "current_rerun_raw": "results/fasdnet/controls/fasdnet_compact_main_seed0_4.csv",
+    "current_rerun_summary": "results/fasdnet/controls/fasdnet_summary.json"
+  },
+  "official_ann_baselines": "results/official_ann_baselines_current_env/summary.csv",
+  "control_table": "results/fasdnet/controls/alarm_control_table.csv",
+  "claim_boundary": [
+    "Use the selected submitted run for FASD-Net main-text classification, localization, alarm MAE, and parameter count.",
+    "Dense alarm, shuffle, and reverse alarm controls are recorded from the selected control rerun unless a raw local artifact is added later.",
+    "The manuscript may claim the lowest alarm MAE among representative PSML baselines reproduced under the same current-environment protocol and strong localization relative to those baselines.",
+    "Do not claim universal SNN superiority, hardware energy reduction, floating-point operation reduction, optimized sparse-runtime efficiency, or that the spiking pathway improves all tasks."
+  ]
+}

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test / lint caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Data and checkpoints (never committed)
+/data/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# Generated experiment outputs (only committed result tables are kept)
+/results/*
+!/results/fasdnet/
+!/results/fasdnet/controls/
+!/results/fasdnet/controls/*.csv
+!/results/fasdnet/controls/*.json
+!/results/fasdnet/controls/prefix_alarm_curve/
+!/results/fasdnet/controls/prefix_alarm_curve/*
+!/results/official_ann_baselines_current_env/
+!/results/official_ann_baselines_current_env/summary.csv
+!/results/official_ann_baselines_current_env/summary.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

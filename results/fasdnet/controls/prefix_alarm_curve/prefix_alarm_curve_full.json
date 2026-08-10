@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "seed": 3,
+    "epochs": 50,
+    "batch_size": 32,
+    "alarm_weight": 0.1,
+    "device": "cuda:0",
+    "torch_version": "2.8.0+cu128",
+    "torch_cuda_version": "12.8",
+    "best_epoch": 45,
+    "best_metrics": {
+      "score": 1.5443895020268408,
+      "epoch": 45,
+      "cls_ba": 0.8011355337728727,
+      "loc_ba": 0.7432539682539682,
+      "alarm_mae": 11.714590072631836,
+      "spike_rate": 0.39862650632858276,
+      "spike_count": 2276.95458984375,
+      "train_time_sec": 33.2048688440118,
+      "params": 139009
+    },
+    "prefix_lengths": [
+      32,
+      48,
+      64,
+      96,
+      128,
+      160,
+      192,
+      240,
+      320,
+      480,
+      640,
+      800,
+      960
+    ],
+    "scope": "Trained selected FASD-Net seed with best-state restore, then evaluated alarm prediction on truncated prefixes of the official PSML test split."
+  },
+  "rows": [
+    {
+      "prefix_len": 32,
+      "prefix_fraction": 0.03333333333333333,
+      "num_tokens": 3,
+      "alarm_mae_all": 88.01473999023438,
+      "alarm_mae_observed": 8.60672378540039,
+      "n_observed": 11,
+      "pred_alarm_mean": 15.657987594604492,
+      "pred_alarm_std": 1.4597628116607666
+    },
+    {
+      "prefix_len": 48,
+      "prefix_fraction": 0.05,
+      "num_tokens": 5,
+      "alarm_mae_all": 73.36576080322266,
+      "alarm_mae_observed": 5.953457355499268,
+      "n_observed": 18,
+      "pred_alarm_mean": 30.313982009887695,
+      "pred_alarm_std": 4.808060646057129
+    },
+    {
+      "prefix_len": 64,
+      "prefix_fraction": 0.06666666666666667,
+      "num_tokens": 7,
+      "alarm_mae_all": 59.931793212890625,
+      "alarm_mae_observed": 5.679751396179199,
+      "n_observed": 27,
+      "pred_alarm_mean": 43.808441162109375,
+      "pred_alarm_std": 9.431610107421875
+    },
+    {
+      "prefix_len": 96,
+      "prefix_fraction": 0.1,
+      "num_tokens": 11,
+      "alarm_mae_all": 38.65618896484375,
+      "alarm_mae_observed": 6.876688003540039,
+      "n_observed": 55,
+      "pred_alarm_mean": 65.17005920410156,
+      "pred_alarm_std": 20.08831787109375
+    },
+    {
+      "prefix_len": 128,
+      "prefix_fraction": 0.13333333333333333,
+      "num_tokens": 15,
+      "alarm_mae_all": 23.467981338500977,
+      "alarm_mae_observed": 6.904209136962891,
+      "n_observed": 70,
+      "pred_alarm_mean": 81.32611846923828,
+      "pred_alarm_std": 31.557144165039062
+    },
+    {
+      "prefix_len": 160,
+      "prefix_fraction": 0.16666666666666666,
+      "num_tokens": 19,
+      "alarm_mae_all": 13.292177200317383,
+      "alarm_mae_observed": 6.903631687164307,
+      "n_observed": 89,
+      "pred_alarm_mean": 92.3409652709961,
+      "pred_alarm_std": 41.62351989746094
+    },
+    {
+      "prefix_len": 192,
+      "prefix_fraction": 0.2,
+      "num_tokens": 23,
+      "alarm_mae_all": 7.881260871887207,
+      "alarm_mae_observed": 7.881260871887207,
+      "n_observed": 110,
+      "pred_alarm_mean": 98.80823516845703,
+      "pred_alarm_std": 49.36426544189453
+    },
+    {
+      "prefix_len": 240,
+      "prefix_fraction": 0.25,
+      "num_tokens": 29,
+      "alarm_mae_all": 6.496771812438965,
+      "alarm_mae_observed": 6.496771812438965,
+      "n_observed": 110,
+      "pred_alarm_mean": 98.46702575683594,
+      "pred_alarm_std": 49.4652099609375
+    },
+    {
+      "prefix_len": 320,
+      "prefix_fraction": 0.3333333333333333,
+      "num_tokens": 39,
+      "alarm_mae_all": 6.342922687530518,
+      "alarm_mae_observed": 6.342922687530518,
+      "n_observed": 110,
+      "pred_alarm_mean": 98.91365051269531,
+      "pred_alarm_std": 49.250736236572266
+    },
+    {
+      "prefix_len": 480,
+      "prefix_fraction": 0.5,
+      "num_tokens": 59,
+      "alarm_mae_all": 7.008514881134033,
+      "alarm_mae_observed": 7.008514881134033,
+      "n_observed": 110,
+      "pred_alarm_mean": 101.11787414550781,
+      "pred_alarm_std": 49.84307098388672
+    },
+    {
+      "prefix_len": 640,
+      "prefix_fraction": 0.6666666666666666,
+      "num_tokens": 79,
+      "alarm_mae_all": 7.604154109954834,
+      "alarm_mae_observed": 7.604154109954834,
+      "n_observed": 110,
+      "pred_alarm_mean": 103.25811004638672,
+      "pred_alarm_std": 50.635345458984375
+    },
+    {
+      "prefix_len": 800,
+      "prefix_fraction": 0.8333333333333334,
+      "num_tokens": 99,
+      "alarm_mae_all": 8.67418384552002,
+      "alarm_mae_observed": 8.67418384552002,
+      "n_observed": 110,
+      "pred_alarm_mean": 106.25310516357422,
+      "pred_alarm_std": 52.77436828613281
+    },
+    {
+      "prefix_len": 960,
+      "prefix_fraction": 1.0,
+      "num_tokens": 119,
+      "alarm_mae_all": 11.714591026306152,
+      "alarm_mae_observed": 11.714591026306152,
+      "n_observed": 110,
+      "pred_alarm_mean": 110.45853424072266,
+      "pred_alarm_std": 59.78892517089844
+    }
+  ]
+}
